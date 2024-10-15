@@ -11,3 +11,6 @@
 
 4.history.ts:494 Uncaught Error: You cannot render a <Router> inside another <Router>. You should never have more than one in your app.
 -> Router태그안에 또 다른 Router를 두면 안된다. 
+
+5.Parsing error: JSX attributes must only be assigned a non-empty expression.
+-> React안에 return으로 표현한 JSX에서는 빈 표현식을 사용하면 안되서 채워넣거나 없애야함
