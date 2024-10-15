@@ -1,4 +1,4 @@
-404 not found -> 요청경로가 잘못됨
+1. 404 not found -> 요청경로가 잘못됨
 ex React) call("요청경로") -> 요청 경로가 없거나 오타가 났거나
 ex Spring boot)
 @RestController
@@ -7,4 +7,7 @@ xxController{
 @GetMapping("리소스") -> 리소스가 없거나 오타가 났거나
 }
  
+
+2. 403 Forbidden
+-> 접속하려는 사이트의 웹페이지에 대한 엑세스가 허용이 나지않음
 
