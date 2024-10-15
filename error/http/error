@@ -1,3 +1,10 @@
 404 not found
-ex) call("요청경로") -> 요청 경로가 없거나 오타가 났거나
+ex React) call("요청경로") -> 요청 경로가 없거나 오타가 났거나
+ex Spring boot)
+@RestController
+@RequestMapping("리소스") -> 리소스가 없거나 오타가 났거나
+xxController{
+@GetMapping("리소스") -> 리소스가 없거나 오타가 났거나
+}
 -> 요청경로가 잘못됨 
+
