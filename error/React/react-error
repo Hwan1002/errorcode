@@ -14,3 +14,6 @@
 
 5.Parsing error: JSX attributes must only be assigned a non-empty expression.
 -> React안에 return으로 표현한 JSX에서는 빈 표현식을 사용하면 안되서 채워넣거나 없애야함
+
+6. TypeError: destroy is not a function (it is Object)
+-> useEffect 안에서 생긴 문제, 사용법 맞게 잘 작성했는지 확인해야함.
