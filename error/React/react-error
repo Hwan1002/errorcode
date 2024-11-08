@@ -17,3 +17,6 @@
 
 6. TypeError: destroy is not a function (it is Object)
 -> useEffect 안에서 생긴 문제, 사용법 맞게 잘 작성했는지 확인해야함.
+
+7. buildLink is not function
+-> 사용하려는 컴포넌트나 기능중이 install 되지않은 항목이 있을 수 있다.
