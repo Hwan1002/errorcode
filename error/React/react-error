@@ -22,4 +22,4 @@
 -> 사용하려는 컴포넌트나 기능중이 install 되지않은 항목이 있을 수 있다.
 
 8. Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined.
--> import를 잘못 받아오고 있거나 잘못 뱉어내고 있는것.
+-> import나 export를 잘못 실행 하고 있는것.
