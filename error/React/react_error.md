@@ -1,4 +1,4 @@
-###React 에서 자주 보이던 에러 정리
+##React 에서 자주 보이던 에러 정리
 
 1. react 에러: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: object
 -> axios나 fetch등 call요청하는곳에 이동하려는 곳 이름앞에 /를 붙혀야함         
