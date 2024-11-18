@@ -23,3 +23,5 @@
 
 8. Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined.
 -> import나 export를 잘못 실행 하고 있는것.
+-> 확인해보니 Input과 Button을 따로 만들어준 컴포넌트를 사용해야 하는데
+   자동완성으로 'react-native' 쪽에서 임포트를 해놓았다.
